@@ -116,6 +116,7 @@ Hooks designed to work across Claude Code, Codex, Cursor, Gemini CLI, and other 
 - [first-fluke/oh-my-agent](https://github.com/first-fluke/oh-my-agent) — stop-hook gates and independent judges verifying agent work by artifacts, across multiple agent runtimes.
 - [JakeSelby/model-citizen](https://github.com/JakeSelby/model-citizen) — a control plane that projects your hooks, guardrails, and telemetry rules into Claude Code and Codex.
 - [kenryu42/cc-safety-net](https://github.com/kenryu42/cc-safety-net) — cross-runtime guardrail hook (Claude Code, Codex, Cursor, Gemini CLI, Hermes Agent, and more).
+- [Kruhlikau/subagent-tuner](https://github.com/Kruhlikau/subagent-tuner) — a `tool.call` hook on the Agent tool that sets the model and reasoning effort of each Claude Code subagent: asks first, recommends by task kind, or applies a saved default over what the agent requested.
 
 ## Contributing
 
