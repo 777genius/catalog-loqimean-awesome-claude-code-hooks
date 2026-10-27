@@ -38,6 +38,7 @@ Contributions welcome — see [CONTRIBUTING.md](CONTRIBUTING.md).
 Hooks that block destructive commands, exfiltration attempts, or unsafe file access before they execute.
 
 - [DataFog/datafog-python](https://github.com/DataFog/datafog-python) — `datafog-hook` gates tool calls (shell commands, web requests, file writes, MCP tools) and blocks PII from leaving the machine, entirely offline in ~70-90ms.
+- [Dicklesworthstone/destructive_command_guard](https://github.com/Dicklesworthstone/destructive_command_guard) — Rust `PreToolUse` hook that blocks destructive git, filesystem, database, Kubernetes, cloud, and Terraform commands (including ones hidden in heredocs and inline scripts) via 50+ rule packs, with explain mode and a CI scan mode; installs into Claude Code, Codex, Gemini CLI, Copilot, Cursor, and more.
 - [dwarvesf/claude-guardrails](https://github.com/dwarvesf/claude-guardrails) — hardened Claude Code security config with permission deny rules, shell hooks, and prompt-injection defense in full and lite variants.
 - [hahahahahahahahah6/agent-guard](https://github.com/hahahahahahahahah6/agent-guard) — dependency-free guard stack that blocks the "green by editing the test" cheat (snapshots test/source hashes, blocks `Stop` until a changed test is proven to fail without the fix), plus an outbound-action denylist for pushes, publishes, deploys, and mass-send channels, with mutation-testing and comment-slop checks on top.
 - [hahahahahahahahah6/edit-guard](https://github.com/hahahahahahahahah6/edit-guard) — stops one agent session from overwriting a file another session changed underneath it: watches Read/Edit/Write and blocks the stale write, telling the agent to re-read first; Python stdlib only.
@@ -107,7 +108,7 @@ Send a ping to Slack, Telegram, desktop notification center, etc. when Claude ne
 - [kyu1204/oh-my-harness](https://github.com/kyu1204/oh-my-harness) — generates a catalog of enforcement hooks (TDD guard, branch guard, command guard, commit-test gate, auto-lint, auto-PR) from a plain-English project description, with `omh sync --check` as a CI drift gate.
 - [rohitg00/awesome-claude-code-toolkit](https://github.com/rohitg00/awesome-claude-code-toolkit) — 20+ hooks bundled with agents, skills, commands, and rules.
 - [vibeeval/vibecosystem](https://github.com/vibeeval/vibecosystem) — 73 hooks as part of a larger self-learning multi-agent swarm setup.
-- [yotamleo/Himmel](https://github.com/yotamleo/Himmel) — an orchestrated harness for running Claude Code that includes guardrail hooks, a Jira CLI, and a cross-session handover system.
+- [yotamleo-org/Himmel](https://github.com/yotamleo-org/Himmel) — an orchestrated harness for running Claude Code that includes guardrail hooks, a Jira CLI, and a cross-session handover system.
 
 ## Multi-Agent / Cross-Tool Hooks
 
